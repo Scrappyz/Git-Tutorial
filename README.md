@@ -73,5 +73,5 @@ Once the files you want to commit have been staged.
 
 After the changes have been commited and you want to upload those changes to the remote repo.
 1. Run `git push origin <branch>`
-	- `<branch>` is the name of the branch you want to push the changes to. You can run `git branch` to find the name of the branch that is currently active.
+	- `<branch>` is the name of the branch you want to push the changes to. You can check which branch you want to push the changes to in your remote repo.
 	- If it is your first time running `git push`, run `git push -u origin <branch>` instead.
