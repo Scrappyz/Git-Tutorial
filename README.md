@@ -49,22 +49,29 @@ Example:
 
 ## Initialize Local Repo
 
+Once the remote repo has been created.
 1. In the command line, go to your project's root directory and run `git init`
-2. Go to the repo you created in `https://github.com/` and get the URL of the repo
-3. Connect project to remote repo with `git remote add <name> <url>` in the command line
+2. Go to the repo you created in `https://github.com/` and get the URL of the repo.
+3. Connect local repo to remote repo with `git remote add origin <url>` in the command line.
 
-## Commiting Changes
+## Commiting
 
-1. To see files that have changes, run `git status`
+#### Staging Area
+
+This is where you will setup the files you want to commit.
+1. To see files that have been changed, run `git status`
 2. Stage files that you want to commit with `git add <files...>`
 	- Use `.` to add all files
-3. Commit changes with `git commit -m <message>`
+
+#### Commit The Changes
+
+Once the files you want to commit have been staged.
+1. Run `git commit -m "<message>"`
+	- Always try to give your commits a simple and concise message.
 
 ## Pushing Changes To Remote Repo
 
-1. After the changes have been commited, run `git push <name> <branch>`
-	- If it is your first time running `git push`, run `git push -u <name> <branch>` instead
-
-## Additional Information
-
-- All `git` commands should be ran in the project's root directory
+After the changes have been commited and you want to upload those changes to the remote repo.
+1. Run `git push origin <branch>`
+	- `<branch>` is the name of the branch you want to push the changes to. You can run `git branch` to find the name of the branch that is currently active.
+	- If it is your first time running `git push`, run `git push -u origin <branch>` instead.
