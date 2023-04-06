@@ -32,9 +32,8 @@ Example:
 
 #### Installing Git
 
-1. Go to `https://github.com/git-for-windows/git/releases/download/v2.40.0.windows.1/Git-2.40.0-64-bit.exe`
-2. Open the file and just do the default installation.
-3. To check if `git` has been installed, run `git version` in the command line. If the `git` version has been outputted then `git` has been installed correctly in your machine.
+1. Go to `https://git-scm.com/downloads` and download the file that corresponds to your operating system.
+2. To check if `git` has been installed, run `git version` in the command line. If the `git` version has been outputted then `git` has been installed correctly in your machine.
 
 #### Configuring Git
 
