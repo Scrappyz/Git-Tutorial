@@ -30,6 +30,12 @@ If a placeholder ends with an ellipsis (`...`) like `<files...>` then that means
 Example:
 - `git add <files...>` could be `git add test.txt` or `git add myfile.txt test.txt` or `git add Main.java Log.java config.txt` and so on.
 
+#### Installing Git
+
+1. Go to `https://github.com/git-for-windows/git/releases/download/v2.40.0.windows.1/Git-2.40.0-64-bit.exe`
+2. Open the file and just do the default installation.
+3. To check if `git` has been installed, run `git version` in the command line. If the `git` version has been outputted then `git` has been installed correctly in your machine.
+
 #### Configuring Git
 
 1. In the command line, run `git config --global core.editor "<path>"` where `<path>` is the absolute path to your text editor's executable file
